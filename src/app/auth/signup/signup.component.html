@@ -13,7 +13,7 @@
             <mat-error *ngIf="emailInput.hasError('required')">Field must not be empty</mat-error>
             <mat-error *ngIf="!emailInput.hasError('required')">E-mail is invalid.</mat-error>
         </mat-form-field>
-        <mat-form-field hintLabel="should be at least 6 char long">
+        <mat-form-field hintLabel="should be at least 6 characters long">
             <input type="password" 
             matInput 
             placeholder="Your password" 
@@ -24,7 +24,7 @@
             #pwInput="ngModel"
             >
             <mat-hint align="end"> {{pwInput.value?.length }} /6</mat-hint>
-            <mat-error> Must has 6 chars </mat-error>
+            <mat-error> Must has 6 characters  </mat-error>
         </mat-form-field>
         <mat-form-field>
             <input  matInput [matDatepicker]="picker" placeholder="Your Birthdate">
