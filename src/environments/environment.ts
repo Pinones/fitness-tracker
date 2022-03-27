@@ -3,7 +3,14 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+/*   firebase: {
+    apiKey: "AIzaSyBfWvS8XYPl6vaFk9g2X9Hfca5o5B84gT4",
+    authDomain: "vogo-fitness.firebaseapp.com",
+    projectId: "vogo-fitness",
+    storageBucket: "vogo-fitness.appspot.com",
+    messagingSenderId: "54633323744",
+  } */
 };
 
 /*
